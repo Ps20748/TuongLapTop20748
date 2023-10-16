@@ -1,0 +1,246 @@
+.main{
+  max-width: 1500px;
+  height: 500px;
+}
+
+.container {
+  width: 40%;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  z-index: 1000;
+  width: 100%;
+}
+
+.header-left {
+  width: 20%;
+  float: left;
+  margin-right: 80px;
+  height: 135px;
+  display: flex;
+}
+
+.header-left .logo {
+  margin: auto;
+}
+
+.header-main {
+  width: 30%;
+  float: left;
+}
+
+.main-menu {
+  width: 74%;
+  height: 114px;
+  display: flex;
+  background: orangered;
+}
+
+.main-menu ul li {
+  display: inline-flex;
+  color: #FFF;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  justify-content: center;
+  align-items: center;
+  padding-right:78px;
+}
+
+.main-menu ul li a {
+  padding-left: 12px;
+}
+
+.main-menu ul {
+  margin: 26px auto;
+}
+
+.sanpham-web{
+  width: 100%;
+  max-width: 1700px;
+  height: 1200px;
+}
+
+.sanpham{
+  width: 25%;
+    float: left;
+}
+
+.sanpham1{
+  border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+    position: relative
+}
+
+.sanpham1>.name{
+  font-variant: small-caps;
+    color: orangered;
+}
+
+.sanpham1>.image {
+  max-width: 98%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.sanpham1>.price {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: blue;
+}
+
+.sanpham1>.icons {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  width: 25px;
+}
+
+.new-icon{
+  position: absolute;
+  top: -160px;
+  right: 0px;
+}
+
+.sanpham-khuyenmai{
+  width: 1500px;
+  height: 350px;
+  border: 1px solid black;
+}
+
+.gia-goc{
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  color: blue;
+}
+
+.gia-km{
+  position: absolute;
+  right: 100px;
+  bottom: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  color: blue;
+}
+
+.khoang-trong{
+  width: 1500px;
+  height: 90px;
+  background-color: orangered;
+}
+
+.sanpham-km{
+  width: 25%;
+    float: left;
+}
+
+.khoang-trong>h1{
+  color: white;
+  font-size: 25px;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.khoang-trong1{
+  width: 1500px;
+  height: 35px;
+}
+
+.form-dangnhap{
+    max-width: 1500px;
+    height: 500px;
+    border-radius: 1px solid black;
+}
+
+#footer {
+  width: 80%;
+  margin: auto;
+  background-color: gray;
+}
+
+#dongdau {
+  width: 100%;
+  height: 286px;
+  background-color:  rgb(22, 42, 219);
+  padding: 10px;
+}
+
+.cot{
+  width: 25%;
+  float: left;
+  background-color: rgb(22, 42, 219);
+}
+
+.cot a {
+  display: inline-block;
+}
+
+.cot ul li{
+  list-style: none;
+  margin: 10px;
+}
+
+.cot a {
+  text-decoration: none;
+  color: white;
+}
+
+.cot h3 {
+  color: white;
+  padding: 10px;
+}
+
+#donghai {
+  background-color: gray;
+  height: 50px;
+}
+
+#ngonngu {
+  width: 15%;
+  float: left;
+}
+
+#dieukhoan {
+  width: 85%;
+  height: 50px;
+  float: left;
+  text-decoration: none;
+  text-align: right;
+  line-height: 50px;
+}
+
+#ngonngu button{
+  width: 100px;
+  height: 50px;
+  padding: 5px;
+  background-color: aqua;
+  border-radius: 20px;
+  border: none;
+}
+
+#ngonngu i{
+  margin-right: 5px;
+}
+
+#dieukhoan a{
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+}
+
